@@ -1,5 +1,13 @@
-name: No Item Loss on Void Fall
-main: lekro.bukkitplugins.novoidfallitemloss.NoVoidFallItemLoss
+name: TorncraftUtils
+main: lekro.bukkitplugins.torncraftutils.TorncraftPlugin
 version: 0.0.1
 commands:
+    worldspawn:
+        description: Teleports you to the spawn of the world you are currently in.
+        usage: hai
+        permission: torncraftutils.worldspawn
+        permission-message: You can't do this!
 permissions:
+    torncraftutils.worldspawn:
+        description: Allows you to use Worldspawn
+        default: 
