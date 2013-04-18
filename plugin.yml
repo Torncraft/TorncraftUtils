@@ -4,10 +4,18 @@ version: 0.0.1
 commands:
     worldspawn:
         description: Teleports you to the spawn of the world you are currently in.
-        usage: hai
+        usage: /worldspawn
         permission: torncraftutils.worldspawn
+        permission-message: You can't do this!
+    unbreakable:
+        description: Makes the breakable tool in your hand unbreakable.
+        usage: /unbreakable
+        permission: torncraftutils.unbreakable
         permission-message: You can't do this!
 permissions:
     torncraftutils.worldspawn:
-        description: Allows you to use Worldspawn
-        default: 
+        description: Allows you to use /worldspawn
+        default: op
+    torncraftutils.unbreakable:
+        description: Allows you to use /unbreakable
+        default: op
