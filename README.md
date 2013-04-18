@@ -1,4 +1,4 @@
-NoVoidFallItemLoss
+TorncraftUtils
 ==================
 
-Plugin for Bukkit that prevents loss of items upon void fall
+Utilities for the use of Torncraft, as an example for others, will grow as I learn more and more...
