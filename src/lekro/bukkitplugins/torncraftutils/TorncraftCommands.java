@@ -59,6 +59,13 @@ public class TorncraftCommands implements CommandExecutor {
 			}
 			return false;
 		}
+		if (cmd.getName().equalsIgnoreCase("vote")) {
+			List<String> voteStrings = plugin.getVoteStrings();
+			for(String s : voteStrings) {
+				sender.sendMessage(s);
+			}
+			return true;
+		}
 		return false;
 	}
 
