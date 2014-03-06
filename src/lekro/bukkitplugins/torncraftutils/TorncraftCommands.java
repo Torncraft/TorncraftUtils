@@ -66,6 +66,10 @@ public class TorncraftCommands implements CommandExecutor {
 			}
 			return true;
 		}
+		if (cmd.getName().equalsIgnoreCase("torncraftutils")) {
+			sender.sendMessage("This is TorncraftUtils version " + plugin.getDescription());
+			return true;
+		}
 		return false;
 	}
 
